@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-o: hsl(12, 88%, 59%);
+    --color-primary-b: hsl(228, 39%, 23%);
+    --color-neutral-o: hsl(13, 100%, 96%);
+    --color-neutral-g-1: hsl(0, 0%, 98%);
+    --color-neutral-g-2: hsl(233, 12%, 13%);
+    --font-bvp: "Be Vietnam Pro", sans-serif;
+}
+
+@layer utilities {
+    .wrapper {
+        @apply max-w-[1110px] mx-auto;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+}
