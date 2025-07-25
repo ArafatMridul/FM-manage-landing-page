@@ -107,7 +107,7 @@ const Footer = () => {
                                 showError
                                     ? "border-red-500 focus:ring-primary-o"
                                     : "border-transparent focus:ring-blue-500"
-                            } focus:outline-none text-sm focus:ring-[0.75px]`}
+                            } focus:outline-[0.75px] focus:outline-primary-o text-sm focus:ring-[0.75px]`}
                             placeholder="Updates in your inbox…"
                         />
                         {showError && (
